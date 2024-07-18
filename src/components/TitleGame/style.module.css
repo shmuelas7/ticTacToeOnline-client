@@ -1,0 +1,23 @@
+.container {
+    height: 100%;
+    background: #B28100;
+    transform: rotate(-3deg);
+    width: 100%;
+
+}
+
+.IntroContainer {
+    height: 100%;
+    background-color: #FCD015;
+    transform: rotate(3deg)
+}
+
+.players {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    position: relative;
+    bottom: 50px
+}

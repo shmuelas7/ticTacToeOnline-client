@@ -1,0 +1,14 @@
+.logoContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    object-fit: cover;
+    height: 100;
+    width: 80%;
+    filter: drop-shadow(0 0 1.75rem #93d0ff);
+}

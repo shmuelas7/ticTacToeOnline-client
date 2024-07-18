@@ -1,0 +1,30 @@
+.container {
+    height: 98vh;
+    width: 100 vh;
+    margin: 0px 15px 0px 15px
+}
+
+.logoContainer {
+    height: 50%;
+
+}
+
+.btnContainer {
+
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.settingBtn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 20%;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

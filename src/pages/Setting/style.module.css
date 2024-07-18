@@ -1,0 +1,58 @@
+.container {
+    height: 98vh;
+
+}
+
+.logo {
+    height: 50%;
+}
+
+.inputBox {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+}
+
+.input {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    color: #CDCDCD;
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 15px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.text {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxImg {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 80px;
+}
+
+.centerImg {
+    height: 130px;
+    margin: 10px
+}
+
+.btns {
+    display: flex;
+    margin-left: 35px;
+    justify-content: space-between;
+    width: 80%;
+}

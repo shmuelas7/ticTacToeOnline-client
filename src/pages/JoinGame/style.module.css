@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    height: 95dvh
+}
+
+.BackButton {
+    height: 20%
+}
+
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    height: 50px;
+}
+
+.input {
+    width: 100%;
+    margin: 30px;
+    height: 70px
+}
+
+.inputText {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #CDCDCD;
+    font-weight: 800;
+    font-size: 25px;
+    padding-left: 15px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 15px;
+    margin-bottom: 50px;
+}
+
+.inputText::placeholder {
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.inputText:focus {
+    outline: none;
+}
+
+.joinBtn {
+    width: 50%
+}
+
+.boxOr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Line {
+    height: 5px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.textOr {
+
+    margin: 10px;
+}

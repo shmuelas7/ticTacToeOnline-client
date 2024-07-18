@@ -1,0 +1,17 @@
+.btn {
+    background-color: #FCD015;
+    border-radius: 30px;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: white 1px solid;
+    box-shadow: #FBB500 0 10px 0 0;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #B28100;
+    line-height: 30px;
+    letter-spacing: -2px;
+}

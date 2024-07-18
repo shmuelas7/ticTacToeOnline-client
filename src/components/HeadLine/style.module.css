@@ -1,0 +1,11 @@
+.text {
+    color: white;
+    font-weight: 800;
+    text-shadow: 1px black;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+    filter: drop-shadow(0 0 1.75rem #ebeeef);
+
+}

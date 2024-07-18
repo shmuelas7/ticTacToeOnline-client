@@ -1,0 +1,30 @@
+.container {
+    height: 100%;
+    width: 100%;
+    border: black solid 5px;
+    box-shadow: black -5px 0px 0px 1px;
+    border-radius: 16px;
+    background-color: #FAFAFA;
+    position: relative;
+
+}
+
+.hide {
+    display: none
+}
+
+.boxTitle {
+    position: absolute;
+    width: 100%;
+    top: -17px;
+
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.boxTitle>p {
+    text-align: center;
+    font-size: 22px;
+
+}
