@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Button({ text, onClick }) {
     return (
         <>
-            <button type="button" className={style.btn} onClick={onClick}><h4>{text}</h4></button >
+            <button type="button" className={style.btn} onClick={onClick}><h2>{text}</h2></button >
         </>
     )
 
