@@ -10,7 +10,7 @@
     text-align: center;
     border-bottom: white 1px solid;
     box-shadow: #FBB500 0 10px 0 0;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #B28100;
     line-height: 30px;
 }
