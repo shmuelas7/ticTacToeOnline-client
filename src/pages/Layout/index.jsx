@@ -10,7 +10,7 @@ export default function Layout() {
     const { page, setPage } = useData()
     const { socket, setSocket } = useSocket();
 
-    useEffect(() => setSocket(io('http://localhost:2501')), [])
+    useEffect(() => setSocket(io('https://tictactoeonline-server.onrender.com')), [])
 
     useEffect(() => {
 
