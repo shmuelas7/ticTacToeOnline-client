@@ -6,7 +6,7 @@ export default function TitleGame({ player1, player2, turn, win }) {
     console.log("player2", player2)
     let winPlayer;
     if (win) {
-        win.id == player1.id ? winPlayer = player1 : winPlayer = player2;
+        win.type == player1.type ? winPlayer = player1 : winPlayer = player2;
     }
     return (
         <div className={style.container}>
@@ -21,7 +21,7 @@ export default function TitleGame({ player1, player2, turn, win }) {
                     <div className={style.players}>
                         <Player
                             img={player1.img}
-                            turn={turn.id == player1.id ? true : false}
+                            turn={turn.role == player1.type ? true : false}
                             type={player1.type}
                             name={player1.name}
                             number={player1.win}
@@ -29,7 +29,7 @@ export default function TitleGame({ player1, player2, turn, win }) {
                         <Player
                             img={player2.img}
                             turn={turn.id == player2.id ? true : false}
-                            type={player2.type}
+                            type={turn.role == player1.type}
                             name={player2.name}
                             number={player2.win}
                             win={false} />
