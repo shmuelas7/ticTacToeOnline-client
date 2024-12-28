@@ -12,3 +12,21 @@
     width: 80%;
     filter: drop-shadow(0 0 1.75rem #93d0ff);
 }
+
+
+
+@media screen and (min-width: 600px) {
+    .logoContainer {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logo {
+        object-fit: cover;
+        width: 30%;
+        filter: drop-shadow(0 0 1.75rem #93d0ff);
+    }
+}
