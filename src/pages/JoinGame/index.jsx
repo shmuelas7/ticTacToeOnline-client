@@ -20,7 +20,7 @@ export default function JoinGame() {
     const handelJoinGame = () => {
         const player = {
             avatar: localStorage?.avatar || 'avatar.jpg',
-            name: localStorage?.name || 'anonymous',
+            name: localStorage?.name || 'you',
             id: socket.id
         }
 
